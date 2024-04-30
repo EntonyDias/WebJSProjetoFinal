@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       ];
 
-    const vexSec = document.getElementById("vexSec")
     let titulo = document.getElementById("Titulo")
     let descricao = document.getElementById("Paragrafo")
     let wall = document.getElementById("Picturi")
