@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family:'Didact Gothic', sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    background-color: rgb(40, 2, 49);
+}
+
+header{
+    background-color: darkmagenta;
+    margin-top: 0;
+    padding-top: 0;
+    position: fixed;
+    height: 8%;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 8888;
+    font-size:large;
+}
+
+#sidebar{
+    padding-left: 8px;
+    position: sticky;
+    background-color: orchid;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    float: left;
+    z-index: 888;
+    max-height: 100%;
+    min-height: 800px;
+    border-style: solid;
+    border-color: orchid;
+    border-right-color: black;
+}
+
+#sidebar img{
+    position: fixed;
+    height: 80px;
+    bottom: 19px;
+    float: bottom;
+    
+}
+
+#botoes{
+    display: flex;
+}
+#yordles{
+    list-style-type: none;
+    padding: 8px;
+    display: grid;  
+    grid-column: auto;
+    gap: 18px;
+    text-align: center;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#yordles button{
+    color: aliceblue;
+    background-color: rgb(38, 3, 38);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 13px;
+    border-color: black;
+    font-size: medium;
+    padding-block: 30px;
+    padding-inline-end: 238px;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#yordles button:hover{
+    color: rgb(16, 1, 19);
+    background-color: rebeccapurple;
+}
+
+section{
+    border-style: solid;
+    border-radius: 18px;
+    border-color: black;
+    padding: 38px;
+    background-color: rebeccapurple;
+    margin: 8px;
+}
+
+
+#infoSec{
+    font-size: large;
+    display: grid;
+    margin-top: 13px;
+    grid-template-columns: auto auto;
+}
+
+#ad1{padding-top: 8px;}
+#ad2{padding-left: 18px;}
+#ad2 img{right: 0; height: 188px;
+border-radius: 3px;
+border-color: black;
+border-style: solid;}
+
+#vexSec img{
+    height: 300px;
+}
+
+main{
+    display:grid;
+    gap: 8px;
+    margin-top: 4%;
+    background-color: rgb(40, 2, 49);
+    z-index: 888;
+    margin-left: 30%;
+    margin-bottom: 18px;
+    border-style: solid;
+    border-color: rgb(40, 2, 49);
+    border-left-color: black;
+}
+
+footer{
+    background-color: darkmagenta;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: fixed;
+    height: 3%;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 8888;
+}
+#linkado:hover{
+    background-color: rgb(40, 2, 49);
+    color: violet;
+}
+#linkado{
+    color: palevioletred;
+}
